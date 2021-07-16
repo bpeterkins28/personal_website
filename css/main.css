@@ -1,0 +1,111 @@
+:root{
+    --primary-blue: #45486B; 
+    --secondary-blue: #DEDFEB;
+    --grey: #ADAEB8; 
+    --white: #EDEDED; 
+    --black: #242424; 
+
+}
+
+h1{
+    /* margin: 0; */
+}
+ul.navbar-nav {
+    color: var(--grey);
+}
+.navbar.navbar-light .navbar-brand{
+    color: var(--primary-blue);
+}
+li.nav-item{
+    padding: 0 1.5rem
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.headerName{
+height: 100vh;
+
+}
+
+.displayName{
+    font-size: 7.594rem;
+    color: var(--primary-blue);
+}
+.displayContent{
+    font-size: 2.25rem;
+
+    color: var(--grey);
+}
+
+.contentContainer{
+    margin-top: 3rem;
+}
+
+.bookSection{
+    margin-top: 3rem;
+}
+
+.albumSection{
+    margin-top: 3rem;
+}
+
+.nightMode{
+    margin: auto;
+    color: rgba(0,0,0,.55);
+}
+p{
+    font-size: 1.5rem;
+}
+.aboutMe{
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+.contentContainer .container-fluid h1 {
+    font-size: 2.25rem
+}
+.ramblingSection{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.benResume{
+    /* border: 1px solid ; */
+    display: block;
+    box-shadow: 3px 3px 3px 2px grey;
+    margin: auto;
+}
+
+.webSiteImg{
+    width: 400px;
+    height: 50%;
+
+
+}
+
+.bi{
+    color: var(--secondary-blue);
+    width:64px;
+    height:64px;
+}
+
+footer{
+    background-color: var(--primary-blue)
+}
+
+.bi:hover{
+    color: var(--grey)
+}
+
+@media (min-width: 992px) {
+    .webSiteImg{
+        width: 400px;
+        margin-right: 3rem;
+    }
+    .bi{
+        width: 48px;
+        height: 48px;
+    }
+}
